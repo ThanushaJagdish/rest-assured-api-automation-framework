@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.636" tests="27" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\test-classes;C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Lenovo\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Lenovo\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Lenovo\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Lenovo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Lenovo\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Lenovo\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-rest-assured\2.29.0\allure-rest-assured-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-attachments\2.29.0\allure-attachments-2.29.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401\surefirebooter-20260408151834524_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401 2026-04-08T15-18-34_277-jvmRun1 surefire-20260408151834524_1tmp surefire_0-20260408151834524_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\test-classes;C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Lenovo\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Lenovo\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Lenovo\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Lenovo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Lenovo\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Lenovo\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-rest-assured\2.29.0\allure-rest-assured-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-attachments\2.29.0\allure-attachments-2.29.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401\surefirebooter-20260408151834524_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="TC_ACC_08" classname="testcases.AccountTest" time="2.308">
+    <system-out><![CDATA[15:18:43 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:18:47 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=",
+    "success": "jsmith is now logged in"
+}
+15:18:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2027-01-12","endDate":"2027-01-14"}
+15:18:53 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_ACC_09" classname="testcases.AccountTest" time="1.677">
+    <system-out><![CDATA[15:18:54 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-10-17","endDate":"2025-01-12"}
+15:18:55 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2025-06-01, 2025-12-31, 800002, 800003, 1, Adil, radhika@gmail.com, Regd.Home loan, What is the interest rate?](1)" classname="testcases.UserJourney1" time="8.573">
+    <system-out><![CDATA[15:18:55 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:18:57 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OlY/dD8/P00=",
+    "success": "jsmith is now logged in"
+}
+15:19:03 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:05 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==",
+    "success": "jsmith is now logged in"
+}
+15:19:05 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800002/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-06-01","endDate":"2025-12-31"}
+15:19:07 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+15:19:07 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"1"}
+15:19:08 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "1.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+}
+15:19:08 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"Adil","email":"radhika@gmail.com","subject":"Regd.Home loan","message":"What is the interest rate?"}
+15:19:10 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "What is the interest rate?",
+    "subject": "Regd.Home loan",
+    "name": "Adil",
+    "email": "radhika@gmail.com"
+}
+15:19:10 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: null
+15:19:12 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}
+{
+    "LoggedOut": "True"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2024-06-01, 2025-12-31, 800002, 800003, 2, Anusha, fs@yahoo.com, Regd.Personal loan, When can I clear my personal loan?](2)" classname="testcases.UserJourney1" time="8.604">
+    <system-out><![CDATA[15:19:12 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:14 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=",
+    "success": "jsmith is now logged in"
+}
+15:19:14 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800002/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2024-06-01","endDate":"2025-12-31"}
+15:19:15 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3278",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3276",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3274",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3272",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3270",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3268",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3266",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3264",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3262",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3260",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3258",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3256",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3254",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3252",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3250",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3248",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3246",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3244",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3242",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3240",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3238",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3236",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3234",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3232",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3230",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3228",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3226",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3224",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3222",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3220",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3218",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3216",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3214",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3212",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3210",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3208",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3206",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3204",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3202",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3200",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3198",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3196",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3194",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3192",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3190",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3188",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3186",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3184",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3182",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3180",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3178",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3176",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3174",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3172",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3170",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3168",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3166",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3164",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3162",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3160",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3158",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3156",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3154",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3152",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3150",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3148",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3146",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3144",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3142",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3140",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3138",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3136",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3134",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3132",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3130",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3128",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3126",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3124",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3122",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3120",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3118",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3116",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3114",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3112",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3110",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3108",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3106",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3104",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3102",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3100",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3098",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3096",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3094",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3092",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3090",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3088",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3086",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3084",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3082",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3080",
+            "type": "Deposit",
+            "account": "800002"
+        }
+    ]
+}
+15:19:15 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"2"}
+15:19:17 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "2.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+}
+15:19:17 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"Anusha","email":"fs@yahoo.com","subject":"Regd.Personal loan","message":"When can I clear my personal loan?"}
+15:19:19 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "When can I clear my personal loan?",
+    "subject": "Regd.Personal loan",
+    "name": "Anusha",
+    "email": "fs@yahoo.com"
+}
+15:19:19 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: null
+15:19:21 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}
+{
+    "LoggedOut": "True"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAccountDeatilsSchema" classname="testcases.SchemaTest" time="4.503">
+    <system-out><![CDATA[15:19:21 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:22 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=",
+    "success": "jsmith is now logged in"
+}
+15:19:22 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Accept=*/*
+Content-Type=application/json
+Body: null
+15:19:24 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Accounts": [
+        {
+            "Name": "Savings",
+            "id": "800002"
+        },
+        {
+            "Name": "Checking",
+            "id": "800003"
+        },
+        {
+            "Name": "Credit Card",
+            "id": "4539082039396288"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTransactionsSchema" classname="testcases.SchemaTest" time="2.041">
+    <system-out><![CDATA[15:19:27 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-01-12","endDate":"2025-10-17"}
+15:19:28 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4132",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4131",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4130",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4129",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4128",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4127",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4126",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4125",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4124",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4123",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4122",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4121",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4120",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4119",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4118",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4117",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4116",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4115",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4114",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4113",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4112",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4111",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4110",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4109",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4108",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4107",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4106",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4105",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4104",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4103",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4102",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4101",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4100",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4099",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4098",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4097",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4096",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4095",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4094",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4093",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4092",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4091",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$18446744073709552000.00",
+            "id": "4090",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$18446744073709552000.00",
+            "id": "4089",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4088",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4087",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$4294967297.00",
+            "id": "4086",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$4294967297.00",
+            "id": "4085",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4084",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4083",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$100000000000000000000.00",
+            "id": "4082",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$100000000000000000000.00",
+            "id": "4081",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4080",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4079",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4078",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4077",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4076",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4075",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4074",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4073",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4072",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4071",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4070",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4069",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4068",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4067",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4066",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4065",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4064",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4063",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4062",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4061",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4060",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4059",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4058",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4057",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4056",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4055",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4054",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4053",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4052",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4051",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4050",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4049",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4048",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4047",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4046",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4045",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4044",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4043",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4042",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4041",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4040",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4039",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4038",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4037",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4036",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4035",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4034",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4033",
+            "type": "Withdrawal",
+            "account": "800003"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_FDB_01_ValidFeedback" classname="testcases.FeedbackTest" time="2.069">
+    <system-out><![CDATA[15:19:29 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:30 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=",
+    "success": "jsmith is now logged in"
+}
+15:19:30 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
+15:19:32 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "Test Message",
+    "subject": "Test Subject",
+    "name": "John Smith",
+    "email": "john@test.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_FDB_02_invalidFeedback" classname="testcases.FeedbackTest" time="1.804">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.FeedbackTest.TC_FDB_02_invalidFeedback(FeedbackTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:19:33 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"","email":"","subject":"","message":""}
+15:19:34 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "",
+    "subject": "",
+    "name": "",
+    "email": ""
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_FDB_03_FeedbackWithoutAuth" classname="testcases.FeedbackTest" time="1.658">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.FeedbackTest.TC_FDB_03_FeedbackWithoutAuth(FeedbackTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:19:34 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
+15:19:36 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "Test Message",
+    "subject": "Test Subject",
+    "name": "John Smith",
+    "email": "john@test.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_01_validTransfer" classname="testcases.TransferTest" time="1.642">
+    <system-out><![CDATA[15:19:36 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:38 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/",
+    "success": "jsmith is now logged in"
+}
+15:19:38 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
+15:19:39 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "200.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_02_TransferFromInvalidAcc" classname="testcases.TransferTest" time="1.509">
+    <system-out><![CDATA[15:19:39 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"000","transferAmount":"200"}
+15:19:41 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 500
+Body: "error":"ERROR: Originating account is invalid"}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_03_TransferToInvalidAcc" classname="testcases.TransferTest" time="1.528">
+    <system-out><![CDATA[15:19:41 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"000","fromAccount":"800003","transferAmount":"200"}
+15:19:42 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 500
+Body: "error":"ERROR: Destination account is invalid"}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_04_zeroFundTranfer" classname="testcases.TransferTest" time="1.589">
+    <system-out><![CDATA[15:19:42 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"0"}
+15:19:44 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "0.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_05_InvalidFundsTranfer" classname="testcases.TransferTest" time="1.497">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TransferTest.TC_TRF_05_InvalidFundsTranfer(TransferTest.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:19:44 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"-100"}
+15:19:45 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "-100.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_TRF_06_validTransfer" classname="testcases.TransferTest" time="1.87">
+    <system-out><![CDATA[15:19:45 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
+15:19:47 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 401
+Body: loggedIn=false
+Please log in first
+]]></system-out>
+  </testcase>
+  <testcase name="TCAdmin_001_validRegistration" classname="testcases.AdminTest" time="1.638">
+    <system-out><![CDATA[15:19:47 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:49 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=",
+    "success": "jsmith is now logged in"
+}
+15:19:50 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"tinku","lastname":"minku","username":"tinkuminku","password1":"Abc@123","password2":"Abc@123"}
+15:19:51 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TCAdmin_002_RegistrationWithExistingUsername" classname="testcases.AdminTest" time="1.476">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.AdminTest.TCAdmin_002_RegistrationWithExistingUsername(AdminTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:19:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"john","lastname":"smith","username":"jsmith","password1":"123","password2":"123"}
+15:19:53 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TCAdmin_003_RegistrationPasswordMismatch" classname="testcases.AdminTest" time="1.554">
+    <system-out><![CDATA[15:19:53 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"thanu","lastname":"manu","username":"thanumanu","password1":"123","password2":"456"}
+15:19:54 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"Entered passwords did not match."}
+]]></system-out>
+  </testcase>
+  <testcase name="TCAdmin_004_ExistingUserPasswordChange" classname="testcases.AdminTest" time="1.843">
+    <system-out><![CDATA[15:19:54 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/changePassword
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password1":"Abc@123","password2":"Abc@123"}
+15:19:56 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_01_ValidLogin" classname="testcases.AuthTest" time="2.095">
+    <system-out><![CDATA[15:19:56 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:19:58 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=",
+    "success": "jsmith is now logged in"
+}
+15:19:58 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+15:20:00 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",
+    "success": "jsmith is now logged in"
+}
+{
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",
+    "success": "jsmith is now logged in"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_02_invalidPassword" classname="testcases.AuthTest" time="1.694">
+    <system-out><![CDATA[15:20:00 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"wrongpass"}
+15:20:02 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_03_invalidUsername" classname="testcases.AuthTest" time="1.58">
+    <system-out><![CDATA[15:20:02 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"xyz","password":"demo1234"}
+15:20:03 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_04_blankUsername" classname="testcases.AuthTest" time="1.705">
+    <system-out><![CDATA[15:20:03 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"","password":"demo1234"}
+15:20:05 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_05_blankPassword" classname="testcases.AuthTest" time="1.509">
+    <system-out><![CDATA[15:20:05 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":""}
+15:20:06 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_06_EmptyCredentials" classname="testcases.AuthTest" time="1.497">
+    <system-out><![CDATA[15:20:07 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"","password":""}
+15:20:08 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_07_noBody" classname="testcases.AuthTest" time="1.52">
+    <system-out><![CDATA[15:20:08 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: null
+15:20:09 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"body is not JSON"}
+]]></system-out>
+  </testcase>
+  <testcase name="TC_AUTH_08_validLogout" classname="testcases.AuthTest" time="1.623">
+    <system-out><![CDATA[15:20:10 [main] INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=
+Accept=*/*
+Content-Type=application/json
+Body: null
+15:20:11 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}
+{
+    "LoggedOut": "True"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

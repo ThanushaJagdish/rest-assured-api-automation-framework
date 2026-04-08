@@ -1,0 +1,2741 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>API Automation Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">API Test Execution Summary</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 8, 2026 03:18:40 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Suite:APIAutomationSuite</a><a class="dropdown-item" href="#">RegressionTests</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="Suite:APIAutomationSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">API Automation Suite</p>
+            <p class="text-sm">
+              <span>3:18:41 pm</span> / <span>00:01:30:525</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">API Automation Suite</h5>
+<span class='badge badge-success'>04.08.2026 3:18:41 pm</span>
+<span class='badge badge-danger'>04.08.2026 3:20:11 pm</span>
+<span class='badge badge-default'>00:01:30:525</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:41 pm</td>
+        <td>
+          Suite started: API Automation Suite
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          Suite finished: API Automation Suite
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          Passed: 23
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          Failed: 4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          Skipped: 0
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:315</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>TC_ACC_08</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:51 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account/800003/transactions<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"startDate":"2027-01-12","endDate":"2027-01-14"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:53 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "transactions": [<br>        <br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:18:54 pm</td>
+        <td>
+          TC_ACC_08 passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:54 pm</td>
+        <td>
+          Execution Time: 2280 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:232</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>TC_ACC_09</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:54 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account/800003/transactions<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"startDate":"2025-10-17","endDate":"2025-01-12"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:55 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "transactions": [<br>        <br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:18:55 pm</td>
+        <td>
+          TC_ACC_09 passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:55 pm</td>
+        <td>
+          Execution Time: 1681 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:55 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:57 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OlY/dD8/P00=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:08:575</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>testUserJourney</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:03 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:05 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:05 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account/800002/transactions<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"startDate":"2025-06-01","endDate":"2025-12-31"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:07 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "transactions": [<br>        <br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:07 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"1"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:08 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "1.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:08 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/feedback/submit<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"name":"Adil","email":"radhika@gmail.com","subject":"Regd.Home loan","message":"What is the interest rate?"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:10 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "comments": "What is the interest rate?",<br>    "subject": "Regd.Home loan",<br>    "name": "Adil",<br>    "email": "radhika@gmail.com"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:10 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/logout<br>Method: GET<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==<br>Accept=*/*<br>Content-Type=application/json<br>Body: null</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:12 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "LoggedOut": "True"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:12 pm</td>
+        <td>
+          testUserJourney passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:12 pm</td>
+        <td>
+          Execution Time: 8557 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:10:129</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>testUserJourney</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:12 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:14 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:14 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account/800002/transactions<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"startDate":"2024-06-01","endDate":"2025-12-31"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:15 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "transactions": [<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3278",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3276",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3274",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3272",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3270",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3268",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3266",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3264",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3262",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3260",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3258",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3256",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3254",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3252",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3250",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3248",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3246",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3244",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3242",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3240",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3238",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3236",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3234",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3232",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3230",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3228",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3226",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3224",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3222",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3220",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3218",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3216",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3214",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3212",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3210",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3208",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3206",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3204",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3202",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3200",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3198",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3196",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3194",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3192",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3190",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3188",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3186",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3184",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3182",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3180",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3178",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3176",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3174",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3172",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3170",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3168",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3166",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3164",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3162",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3160",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3158",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3156",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3154",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3152",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3150",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3148",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3146",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3144",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3142",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3140",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3138",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3136",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3134",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3132",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3130",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3128",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3126",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3124",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3122",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3120",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3118",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3116",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3114",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3112",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3110",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3108",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3106",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3104",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3102",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3100",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3098",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3096",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3094",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3092",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3090",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3088",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3086",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3084",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3082",<br>            "type": "Deposit",<br>            "account": "800002"<br>        },<br>        {<br>            "date": "2024-12-11 02:31",<br>            "amount": "$8888.00",<br>            "id": "3080",<br>            "type": "Deposit",<br>            "account": "800002"<br>        }<br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:15 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"2"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:17 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "2.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:17 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/feedback/submit<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"name":"Anusha","email":"fs@yahoo.com","subject":"Regd.Personal loan","message":"When can I clear my personal loan?"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:19 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "comments": "When can I clear my personal loan?",<br>    "subject": "Regd.Personal loan",<br>    "name": "Anusha",<br>    "email": "fs@yahoo.com"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:19 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/logout<br>Method: GET<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=<br>Accept=*/*<br>Content-Type=application/json<br>Body: null</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:21 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "LoggedOut": "True"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:21 pm</td>
+        <td>
+          testUserJourney passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:21 pm</td>
+        <td>
+          Execution Time: 8589 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:21 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:22 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:04:502</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>testGetAccountDeatilsSchema</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:22 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account<br>Method: GET<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=<br>Accept=*/*<br>Content-Type=application/json<br>Body: null</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:24 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Accounts": [<br>        {<br>            "Name": "Savings",<br>            "id": "800002"<br>        },<br>        {<br>            "Name": "Checking",<br>            "id": "800003"<br>        },<br>        {<br>            "Name": "Credit Card",<br>            "id": "4539082039396288"<br>        }<br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:27 pm</td>
+        <td>
+          testGetAccountDeatilsSchema passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:27 pm</td>
+        <td>
+          Execution Time: 4492 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:578</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>testGetTransactionsSchema</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:27 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/account/800003/transactions<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"startDate":"2025-01-12","endDate":"2025-10-17"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:28 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "transactions": [<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4132",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4131",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4130",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4129",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4128",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4127",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4126",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4125",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4124",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4123",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4122",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4121",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4120",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4119",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4118",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4117",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4116",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4115",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4114",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4113",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4112",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4111",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4110",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4109",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4108",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4107",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4106",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4105",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4104",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4103",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4102",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4101",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4100",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4099",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4098",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4097",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4096",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4095",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4094",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4093",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4092",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4091",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$18446744073709552000.00",<br>            "id": "4090",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$18446744073709552000.00",<br>            "id": "4089",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4088",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4087",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$4294967297.00",<br>            "id": "4086",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$4294967297.00",<br>            "id": "4085",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4084",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4083",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$100000000000000000000.00",<br>            "id": "4082",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$100000000000000000000.00",<br>            "id": "4081",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4080",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4079",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4078",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4077",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4076",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4075",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4074",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4073",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4072",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4071",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4070",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4069",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4068",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4067",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4066",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4065",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4064",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4063",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4062",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4061",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4060",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4059",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4058",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4057",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4056",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4055",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4054",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4053",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4052",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4051",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4050",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4049",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4048",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4047",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4046",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4045",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "$1234.00",<br>            "id": "4044",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:52",<br>            "amount": "-$1234.00",<br>            "id": "4043",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "$1234.00",<br>            "id": "4042",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "-$1234.00",<br>            "id": "4041",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "$1234.00",<br>            "id": "4040",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "-$1234.00",<br>            "id": "4039",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "$1234.00",<br>            "id": "4038",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "-$1234.00",<br>            "id": "4037",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "$1234.00",<br>            "id": "4036",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "-$1234.00",<br>            "id": "4035",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "$1234.00",<br>            "id": "4034",<br>            "type": "Deposit",<br>            "account": "800003"<br>        },<br>        {<br>            "date": "2025-06-29 08:51",<br>            "amount": "-$1234.00",<br>            "id": "4033",<br>            "type": "Withdrawal",<br>            "account": "800003"<br>        }<br>    ]<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:29 pm</td>
+        <td>
+          testGetTransactionsSchema passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:29 pm</td>
+        <td>
+          Execution Time: 2033 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:29 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:30 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:068</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>TC_FDB_01_ValidFeedback</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:30 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/feedback/submit<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:32 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "comments": "Test Message",<br>    "subject": "Test Subject",<br>    "name": "John Smith",<br>    "email": "john@test.com"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:32 pm</td>
+        <td>
+          TC_FDB_01_ValidFeedback passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:32 pm</td>
+        <td>
+          Execution Time: 2052 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:01:824</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>TC_FDB_02_invalidFeedback</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:33 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/feedback/submit<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"name":"","email":"","subject":"","message":""}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:34 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "comments": "",<br>    "subject": "",<br>    "name": "",<br>    "email": ""<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:34 pm</td>
+        <td>
+          TC_FDB_02_invalidFeedback failed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:34 pm</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.FeedbackTest.TC_FDB_02_invalidFeedback(FeedbackTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:34 pm</td>
+        <td>
+          Execution Time: 1763 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:03:253</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>TC_FDB_03_FeedbackWithoutAuth</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:34 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/feedback/submit<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:36 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "comments": "Test Message",<br>    "subject": "Test Subject",<br>    "name": "John Smith",<br>    "email": "john@test.com"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:36 pm</td>
+        <td>
+          TC_FDB_03_FeedbackWithoutAuth failed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:36 pm</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.FeedbackTest.TC_FDB_03_FeedbackWithoutAuth(FeedbackTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:36 pm</td>
+        <td>
+          Execution Time: 1637 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:36 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:38 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:644</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>TC_TRF_01_validTransfer</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:38 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:39 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "200.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:39 pm</td>
+        <td>
+          TC_TRF_01_validTransfer passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:39 pm</td>
+        <td>
+          Execution Time: 1634 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:499</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>TC_TRF_02_TransferFromInvalidAcc</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:39 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800002","fromAccount":"000","transferAmount":"200"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:41 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 500<br>Body: "error":"ERROR: Originating account is invalid"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:41 pm</td>
+        <td>
+          TC_TRF_02_TransferFromInvalidAcc passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:41 pm</td>
+        <td>
+          Execution Time: 1490 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:537</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>TC_TRF_03_TransferToInvalidAcc</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:41 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"000","fromAccount":"800003","transferAmount":"200"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:42 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 500<br>Body: "error":"ERROR: Destination account is invalid"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:42 pm</td>
+        <td>
+          TC_TRF_03_TransferToInvalidAcc passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:42 pm</td>
+        <td>
+          Execution Time: 1530 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:592</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>TC_TRF_04_zeroFundTranfer</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:42 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"0"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:44 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "0.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:44 pm</td>
+        <td>
+          TC_TRF_04_zeroFundTranfer passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:44 pm</td>
+        <td>
+          Execution Time: 1587 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:01:486</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>TC_TRF_05_InvalidFundsTranfer</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:44 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"-100"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:45 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "-100.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:45 pm</td>
+        <td>
+          TC_TRF_05_InvalidFundsTranfer failed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:45 pm</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.TransferTest.TC_TRF_05_InvalidFundsTranfer(TransferTest.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:45 pm</td>
+        <td>
+          Execution Time: 1474 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:929</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>TC_TRF_06_validTransfer</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:45 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/transfer<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:47 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 401<br>Body: loggedIn=false<br>Please log in first
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:47 pm</td>
+        <td>
+          TC_TRF_06_validTransfer passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:47 pm</td>
+        <td>
+          Execution Time: 1848 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:47 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:49 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:639</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="17"><span>TCAdmin_001_validRegistration</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:50 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/admin/addUser<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"firstname":"tinku","lastname":"minku","username":"tinkuminku","password1":"Abc@123","password2":"Abc@123"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:51 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "Requested operation has completed successfully."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:51 pm</td>
+        <td>
+          TCAdmin_001_validRegistration passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:51 pm</td>
+        <td>
+          Execution Time: 1632 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:01:468</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>TCAdmin_002_RegistrationWithExistingUsername</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:51 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/admin/addUser<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"firstname":"john","lastname":"smith","username":"jsmith","password1":"123","password2":"123"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:53 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "Requested operation has completed successfully."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:53 pm</td>
+        <td>
+          TCAdmin_002_RegistrationWithExistingUsername failed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:19:53 pm</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at testcases.AdminTest.TCAdmin_002_RegistrationWithExistingUsername(AdminTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:53 pm</td>
+        <td>
+          Execution Time: 1457 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:565</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="19"><span>TCAdmin_003_RegistrationPasswordMismatch</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:53 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/admin/addUser<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"firstname":"thanu","lastname":"manu","username":"thanumanu","password1":"123","password2":"456"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:54 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"Entered passwords did not match."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:54 pm</td>
+        <td>
+          TCAdmin_003_RegistrationPasswordMismatch passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:54 pm</td>
+        <td>
+          Execution Time: 1556 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:662</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="20"><span>TCAdmin_004_ExistingUserPasswordChange</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:54 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/admin/changePassword<br>Method: POST<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=<br>Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password1":"Abc@123","password2":"Abc@123"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:56 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "success": "Requested operation has completed successfully."<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:56 pm</td>
+        <td>
+          TCAdmin_004_ExistingUserPasswordChange passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:56 pm</td>
+        <td>
+          Execution Time: 1835 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:56 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:58 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:095</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="21"><span>TC_AUTH_01_ValidLogin</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:58 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:00 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",<br>    "success": "jsmith is now logged in"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:00 pm</td>
+        <td>
+          TC_AUTH_01_ValidLogin passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:00 pm</td>
+        <td>
+          Execution Time: 2086 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:712</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>TC_AUTH_02_invalidPassword</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:00 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":"wrongpass"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:02 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"We're sorry, but this username or password was not found in our system."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:02 pm</td>
+        <td>
+          TC_AUTH_02_invalidPassword passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:02 pm</td>
+        <td>
+          Execution Time: 1704 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:581</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="23"><span>TC_AUTH_03_invalidUsername</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:02 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"xyz","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:03 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"We're sorry, but this username or password was not found in our system."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:03 pm</td>
+        <td>
+          TC_AUTH_03_invalidUsername passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:03 pm</td>
+        <td>
+          Execution Time: 1571 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:697</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="24"><span>TC_AUTH_04_blankUsername</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:03 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"","password":"demo1234"}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:05 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"We're sorry, but this username or password was not found in our system."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:05 pm</td>
+        <td>
+          TC_AUTH_04_blankUsername passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:05 pm</td>
+        <td>
+          Execution Time: 1683 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:518</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="25"><span>TC_AUTH_05_blankPassword</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:05 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"jsmith","password":""}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:06 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"We're sorry, but this username or password was not found in our system."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:06 pm</td>
+        <td>
+          TC_AUTH_05_blankPassword passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:06 pm</td>
+        <td>
+          Execution Time: 1514 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:480</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="26"><span>TC_AUTH_06_EmptyCredentials</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:07 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: {"username":"","password":""}</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:08 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"We're sorry, but this username or password was not found in our system."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:08 pm</td>
+        <td>
+          TC_AUTH_06_EmptyCredentials passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:08 pm</td>
+        <td>
+          Execution Time: 1475 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:535</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="27"><span>TC_AUTH_07_noBody</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:08 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/login<br>Method: POST<br>Headers: Accept=*/*<br>Content-Type=application/json<br>Body: null</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:09 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 400<br>Body: {"error":"body is not JSON"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:10 pm</td>
+        <td>
+          TC_AUTH_07_noBody passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:10 pm</td>
+        <td>
+          Execution Time: 1530 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:626</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>TC_AUTH_08_validLogout</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Suite:APIAutomationSuite</span>
+<span class="badge badge-pill badge-default">RegressionTests</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:10 pm</td>
+        <td>
+          <details><summary><b>REQUEST</b></summary>REQUEST:<br>URI: https://demo.testfire.net/api/logout<br>Method: GET<br>Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=<br>Accept=*/*<br>Content-Type=application/json<br>Body: null</details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          <b>RESPONSE:</b><br>RESPONSE:<br>Status Code: 200<br>Body: {<br>    "LoggedOut": "True"<br>}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          TC_AUTH_08_validLogout passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:11 pm</td>
+        <td>
+          Execution Time: 1612 ms
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>TC_FDB_02_invalidFeedback</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_FDB_02_invalidFeedback</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>TC_FDB_03_FeedbackWithoutAuth</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_FDB_03_FeedbackWithoutAuth</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>TC_TRF_05_InvalidFundsTranfer</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_05_InvalidFundsTranfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>TCAdmin_002_RegistrationWithExistingUsername</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TCAdmin_002_RegistrationWithExistingUsername</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Suite:APIAutomationSuite</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Suite:APIAutomationSuite</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:18:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>API Automation Suite</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>23</span>
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">RegressionTests</p>
+<p class="duration text-sm">27 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RegressionTests</h4>
+<span status="pass" class='badge log pass-bg'>23 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>TC_ACC_08</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_ACC_08</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TC_ACC_09</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_ACC_09</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>testUserJourney</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.testUserJourney</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>testUserJourney</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.testUserJourney</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>testGetAccountDeatilsSchema</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.testGetAccountDeatilsSchema</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>testGetTransactionsSchema</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.testGetTransactionsSchema</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>TC_FDB_01_ValidFeedback</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_FDB_01_ValidFeedback</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>TC_FDB_02_invalidFeedback</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_FDB_02_invalidFeedback</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>TC_FDB_03_FeedbackWithoutAuth</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_FDB_03_FeedbackWithoutAuth</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>TC_TRF_01_validTransfer</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_01_validTransfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>TC_TRF_02_TransferFromInvalidAcc</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_02_TransferFromInvalidAcc</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>TC_TRF_03_TransferToInvalidAcc</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_03_TransferToInvalidAcc</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>TC_TRF_04_zeroFundTranfer</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_04_zeroFundTranfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>TC_TRF_05_InvalidFundsTranfer</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_05_InvalidFundsTranfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>TC_TRF_06_validTransfer</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_TRF_06_validTransfer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>TCAdmin_001_validRegistration</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TCAdmin_001_validRegistration</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:19:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>TCAdmin_002_RegistrationWithExistingUsername</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TCAdmin_002_RegistrationWithExistingUsername</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>TCAdmin_003_RegistrationPasswordMismatch</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TCAdmin_003_RegistrationPasswordMismatch</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>TCAdmin_004_ExistingUserPasswordChange</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TCAdmin_004_ExistingUserPasswordChange</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='21'>TC_AUTH_01_ValidLogin</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_01_ValidLogin</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='22'>TC_AUTH_02_invalidPassword</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_02_invalidPassword</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>TC_AUTH_03_invalidUsername</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_03_invalidUsername</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>TC_AUTH_04_blankUsername</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_04_blankUsername</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>TC_AUTH_05_blankPassword</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_05_blankPassword</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='26'>TC_AUTH_06_EmptyCredentials</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_06_EmptyCredentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>TC_AUTH_07_noBody</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_07_noBody</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:20:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>TC_AUTH_08_validLogout</a>
+<div class="">
+<span class="badge badge-default">API Automation Suite.TC_AUTH_08_validLogout</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 8, 2026 03:18:40 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 8, 2026 03:20:11 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'><b>23</b> steps passed</small></div>
+<div>
+<small data-tooltip='14%'><b>4</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='15%'><b>23</b> events passed</small></div>
+<div>
+<small data-tooltip='5%'><b>8</b> events failed,
+<b data-tooltip='%'>114</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"API Automation Suite":90.525
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Suite:APIAutomationSuite</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>RegressionTests</td>
+<td>23</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>85.185%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Host Name</td>
+<td>Localhost</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>User</td>
+<td>Lenovo</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 23,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 23,
+failEvents: 8,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 114
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

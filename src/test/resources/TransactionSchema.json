@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "transactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "account": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "date",
+          "amount",
+          "id",
+          "type",
+          "account"
+        ]
+      }
+    }
+  },
+  "required": [
+    "transactions"
+  ]
+}

@@ -1,0 +1,1913 @@
+2026-04-08 15:18:43 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:18:47 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:18:51 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2027-01-12","endDate":"2027-01-14"}
+2026-04-08 15:18:53 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+2026-04-08 15:18:54 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-10-17","endDate":"2025-01-12"}
+2026-04-08 15:18:55 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+2026-04-08 15:18:55 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:18:57 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OlY/dD8/P00=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:03 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:05 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:05 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800002/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-06-01","endDate":"2025-12-31"}
+2026-04-08 15:19:07 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        
+    ]
+}
+2026-04-08 15:19:07 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"1"}
+2026-04-08 15:19:08 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "1.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+}
+2026-04-08 15:19:08 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"Adil","email":"radhika@gmail.com","subject":"Regd.Home loan","message":"What is the interest rate?"}
+2026-04-08 15:19:10 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "What is the interest rate?",
+    "subject": "Regd.Home loan",
+    "name": "Adil",
+    "email": "radhika@gmail.com"
+}
+2026-04-08 15:19:10 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Accept=*/*
+Content-Type=application/json
+Body: null
+2026-04-08 15:19:12 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}
+2026-04-08 15:19:12 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:14 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:14 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800002/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2024-06-01","endDate":"2025-12-31"}
+2026-04-08 15:19:15 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3278",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3276",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3274",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3272",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3270",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3268",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3266",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3264",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3262",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3260",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3258",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3256",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3254",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3252",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3250",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3248",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3246",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3244",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3242",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3240",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3238",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3236",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3234",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3232",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3230",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3228",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3226",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3224",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3222",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3220",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3218",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3216",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3214",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3212",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3210",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3208",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3206",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3204",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3202",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3200",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3198",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3196",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3194",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3192",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3190",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3188",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3186",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3184",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3182",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3180",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3178",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3176",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3174",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3172",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3170",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3168",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3166",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3164",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3162",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3160",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3158",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3156",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3154",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3152",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3150",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3148",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3146",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3144",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3142",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3140",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3138",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3136",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3134",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3132",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3130",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3128",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3126",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3124",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3122",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3120",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3118",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3116",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3114",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3112",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3110",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3108",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3106",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3104",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3102",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3100",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3098",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3096",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3094",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3092",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3090",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3088",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3086",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3084",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3082",
+            "type": "Deposit",
+            "account": "800002"
+        },
+        {
+            "date": "2024-12-11 02:31",
+            "amount": "$8888.00",
+            "id": "3080",
+            "type": "Deposit",
+            "account": "800002"
+        }
+    ]
+}
+2026-04-08 15:19:15 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"2"}
+2026-04-08 15:19:17 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "2.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+}
+2026-04-08 15:19:17 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"Anusha","email":"fs@yahoo.com","subject":"Regd.Personal loan","message":"When can I clear my personal loan?"}
+2026-04-08 15:19:19 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "When can I clear my personal loan?",
+    "subject": "Regd.Personal loan",
+    "name": "Anusha",
+    "email": "fs@yahoo.com"
+}
+2026-04-08 15:19:19 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Accept=*/*
+Content-Type=application/json
+Body: null
+2026-04-08 15:19:21 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}
+2026-04-08 15:19:21 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:22 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:22 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Accept=*/*
+Content-Type=application/json
+Body: null
+2026-04-08 15:19:24 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Accounts": [
+        {
+            "Name": "Savings",
+            "id": "800002"
+        },
+        {
+            "Name": "Checking",
+            "id": "800003"
+        },
+        {
+            "Name": "Credit Card",
+            "id": "4539082039396288"
+        }
+    ]
+}
+2026-04-08 15:19:27 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/account/800003/transactions
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Accept=*/*
+Content-Type=application/json
+Body: {"startDate":"2025-01-12","endDate":"2025-10-17"}
+2026-04-08 15:19:28 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "transactions": [
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4132",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4131",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4130",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4129",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4128",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4127",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4126",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4125",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4124",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4123",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4122",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4121",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4120",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4119",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4118",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4117",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4116",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4115",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4114",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4113",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4112",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4111",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4110",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4109",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4108",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4107",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4106",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4105",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4104",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4103",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4102",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4101",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4100",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4099",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4098",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4097",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4096",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4095",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4094",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4093",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4092",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4091",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$18446744073709552000.00",
+            "id": "4090",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$18446744073709552000.00",
+            "id": "4089",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4088",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4087",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$4294967297.00",
+            "id": "4086",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$4294967297.00",
+            "id": "4085",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4084",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4083",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$100000000000000000000.00",
+            "id": "4082",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$100000000000000000000.00",
+            "id": "4081",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4080",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4079",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4078",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4077",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4076",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4075",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4074",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4073",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4072",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4071",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4070",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4069",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4068",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4067",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4066",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4065",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4064",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4063",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4062",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4061",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4060",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4059",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4058",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4057",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4056",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4055",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4054",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4053",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4052",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4051",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4050",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4049",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4048",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4047",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4046",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4045",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "$1234.00",
+            "id": "4044",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:52",
+            "amount": "-$1234.00",
+            "id": "4043",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4042",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4041",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4040",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4039",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4038",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4037",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4036",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4035",
+            "type": "Withdrawal",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "$1234.00",
+            "id": "4034",
+            "type": "Deposit",
+            "account": "800003"
+        },
+        {
+            "date": "2025-06-29 08:51",
+            "amount": "-$1234.00",
+            "id": "4033",
+            "type": "Withdrawal",
+            "account": "800003"
+        }
+    ]
+}
+2026-04-08 15:19:29 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:30 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:30 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
+2026-04-08 15:19:32 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "Test Message",
+    "subject": "Test Subject",
+    "name": "John Smith",
+    "email": "john@test.com"
+}
+2026-04-08 15:19:33 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"","email":"","subject":"","message":""}
+2026-04-08 15:19:34 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "",
+    "subject": "",
+    "name": "",
+    "email": ""
+}
+2026-04-08 15:19:34 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/feedback/submit
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
+2026-04-08 15:19:36 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "comments": "Test Message",
+    "subject": "Test Subject",
+    "name": "John Smith",
+    "email": "john@test.com"
+}
+2026-04-08 15:19:36 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:38 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:38 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
+2026-04-08 15:19:39 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "200.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+2026-04-08 15:19:39 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"000","transferAmount":"200"}
+2026-04-08 15:19:41 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 500
+Body: "error":"ERROR: Originating account is invalid"}
+2026-04-08 15:19:41 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"000","fromAccount":"800003","transferAmount":"200"}
+2026-04-08 15:19:42 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 500
+Body: "error":"ERROR: Destination account is invalid"}
+2026-04-08 15:19:42 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"0"}
+2026-04-08 15:19:44 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "0.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+2026-04-08 15:19:44 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"-100"}
+2026-04-08 15:19:45 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "-100.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+}
+2026-04-08 15:19:45 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/transfer
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
+2026-04-08 15:19:47 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 401
+Body: loggedIn=false
+Please log in first
+2026-04-08 15:19:47 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:49 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:50 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"tinku","lastname":"minku","username":"tinkuminku","password1":"Abc@123","password2":"Abc@123"}
+2026-04-08 15:19:51 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+2026-04-08 15:19:51 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"john","lastname":"smith","username":"jsmith","password1":"123","password2":"123"}
+2026-04-08 15:19:53 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+2026-04-08 15:19:53 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/addUser
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"firstname":"thanu","lastname":"manu","username":"thanumanu","password1":"123","password2":"456"}
+2026-04-08 15:19:54 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"Entered passwords did not match."}
+2026-04-08 15:19:54 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/admin/changePassword
+Method: POST
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password1":"Abc@123","password2":"Abc@123"}
+2026-04-08 15:19:56 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "success": "Requested operation has completed successfully."
+}
+2026-04-08 15:19:56 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:19:58 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:19:58 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"demo1234"}
+2026-04-08 15:20:00 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",
+    "success": "jsmith is now logged in"
+}
+2026-04-08 15:20:00 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":"wrongpass"}
+2026-04-08 15:20:02 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+2026-04-08 15:20:02 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"xyz","password":"demo1234"}
+2026-04-08 15:20:03 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+2026-04-08 15:20:03 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"","password":"demo1234"}
+2026-04-08 15:20:05 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+2026-04-08 15:20:05 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"jsmith","password":""}
+2026-04-08 15:20:06 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+2026-04-08 15:20:07 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: {"username":"","password":""}
+2026-04-08 15:20:08 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"We're sorry, but this username or password was not found in our system."}
+2026-04-08 15:20:08 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/login
+Method: POST
+Headers: Accept=*/*
+Content-Type=application/json
+Body: null
+2026-04-08 15:20:09 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 400
+Body: {"error":"body is not JSON"}
+2026-04-08 15:20:10 INFO  utils.RequestResponseLogger - REQUEST:
+URI: https://demo.testfire.net/api/logout
+Method: GET
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=
+Accept=*/*
+Content-Type=application/json
+Body: null
+2026-04-08 15:20:11 INFO  utils.RequestResponseLogger - RESPONSE:
+Status Code: 200
+Body: {
+    "LoggedOut": "True"
+}

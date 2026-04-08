@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-08T14:56:31 IST" name="Default suite" finished-at="2026-04-08T14:57:05 IST" duration-ms="33643">
+    <groups>
+    </groups>
+    <test started-at="2026-04-08T14:56:31 IST" name="Default test" finished-at="2026-04-08T14:57:05 IST" duration-ms="33643">
+      <class name="testcases.UserJourney1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.UserJourney1@70e02081]" started-at="2026-04-08T14:56:27 IST" name="setup" finished-at="2026-04-08T14:56:31 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UserJourney1@70e02081]" started-at="2026-04-08T14:56:32 IST" name="setUp" finished-at="2026-04-08T14:56:42 IST" duration-ms="10505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@70e02081]" started-at="2026-04-08T14:56:46 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-04-08T14:56:55 IST" duration-ms="9443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[800002]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2025-06-01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025-12-31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[800002]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[800003]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Adil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[radhika@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Regd.Home loan]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[What is the interest rate?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserJourney -->
+        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@70e02081]" started-at="2026-04-08T14:56:56 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-04-08T14:57:05 IST" duration-ms="8763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[800002]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-06-01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025-12-31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[800002]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[800003]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Anusha]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[fs@yahoo.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Regd.Personal loan]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[When can I clear my personal loan?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserJourney -->
+      </class> <!-- testcases.UserJourney1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

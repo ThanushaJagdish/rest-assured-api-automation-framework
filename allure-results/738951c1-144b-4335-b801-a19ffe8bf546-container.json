@@ -1,0 +1,1 @@
+{"uuid":"738951c1-144b-4335-b801-a19ffe8bf546","name":"API Automation Suite","children":["cdf1507c-3e13-429b-bb59-cdd38f2c923d"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1775641238791,"stop":1775641241814}],"afters":[],"start":1775641238736,"stop":1775641338401}

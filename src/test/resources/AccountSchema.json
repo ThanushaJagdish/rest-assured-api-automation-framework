@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "Accounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Name",
+          "id"
+        ]
+      }
+    }
+  },
+  "required": [
+    "Accounts"
+  ]
+}
