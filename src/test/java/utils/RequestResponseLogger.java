@@ -8,7 +8,7 @@ import io.restassured.specification.FilterableResponseSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import utils.ExtentReporter; // 👈 IMPORTANT
+import utils.ExtentReporter;
 
 public class RequestResponseLogger implements Filter {
 

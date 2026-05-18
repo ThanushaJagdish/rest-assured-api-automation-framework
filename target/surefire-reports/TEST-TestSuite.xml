@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.636" tests="27" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="98.918" tests="27" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401\surefirebooter-20260408151834524_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401 2026-04-08T15-18-34_277-jvmRun1 surefire-20260408151834524_1tmp surefire_0-20260408151834524_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12745126880985922963\surefirebooter-20260518150538460_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire12745126880985922963 2026-05-18T15-05-38_193-jvmRun1 surefire-20260518150538460_1tmp surefire_0-20260518150538460_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\test-classes;C:\Users\Lenovo\RestAssured\AltoroJRestAPIAutomation\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Lenovo\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Lenovo\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Lenovo\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Lenovo\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Lenovo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Lenovo\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Lenovo\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-rest-assured\2.29.0\allure-rest-assured-2.29.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-attachments\2.29.0\allure-attachments-2.29.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13544490742117626401\surefirebooter-20260408151834524_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12745126880985922963\surefirebooter-20260518150538460_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -49,34 +49,34 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Lenovo\scoop\shims;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Python\Python313;C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2026.1\bin;C:\Users\Lenovo\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="TC_ACC_08" classname="testcases.AccountTest" time="2.308">
-    <system-out><![CDATA[15:18:43 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_ACC_08" classname="testcases.AccountTest" time="2.511">
+    <system-out><![CDATA[15:05:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:18:47 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:05:54 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pz8/",
     "success": "jsmith is now logged in"
 }
-15:18:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:00 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account/800003/transactions
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pz8/
 Accept=*/*
 Content-Type=application/json
 Body: {"startDate":"2027-01-12","endDate":"2027-01-14"}
-15:18:53 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:01 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "transactions": [
@@ -89,15 +89,15 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="TC_ACC_09" classname="testcases.AccountTest" time="1.677">
-    <system-out><![CDATA[15:18:54 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_ACC_09" classname="testcases.AccountTest" time="1.772">
+    <system-out><![CDATA[15:06:02 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account/800003/transactions
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9KP3M/P0Y=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pz8/
 Accept=*/*
 Content-Type=application/json
 Body: {"startDate":"2025-10-17","endDate":"2025-01-12"}
-15:18:55 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:04 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "transactions": [
@@ -106,65 +106,65 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2025-06-01, 2025-12-31, 800002, 800003, 1, Adil, radhika@gmail.com, Regd.Home loan, What is the interest rate?](1)" classname="testcases.UserJourney1" time="8.573">
-    <system-out><![CDATA[15:18:55 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2025-06-01, 2025-12-31, 800002, 800003, 1, Adil, radhika@gmail.com, Regd.Home loan, What is the interest rate?](1)" classname="testcases.UserJourney1" time="8.491">
+    <system-out><![CDATA[15:06:04 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:18:57 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:05 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OlY/dD8/P00=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OgY/Tj8SMj8=",
     "success": "jsmith is now logged in"
 }
-15:19:03 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:12 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:05 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:14 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OhZJbH4/Bz8=",
     "success": "jsmith is now logged in"
 }
-15:19:05 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:14 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account/800002/transactions
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OhZJbH4/Bz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"startDate":"2025-06-01","endDate":"2025-12-31"}
-15:19:07 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:15 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "transactions": [
         
     ]
 }
-15:19:07 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:15 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OhZJbH4/Bz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"1"}
-15:19:08 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:17 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "success": "1.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+    "success": "1.0 was successfully transferred from Account 800002 into Account 800003 at 5/18/26 4:36 AM."
 }
-15:19:08 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:17 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/feedback/submit
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OhZJbH4/Bz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"name":"Adil","email":"radhika@gmail.com","subject":"Regd.Home loan","message":"What is the interest rate?"}
-15:19:10 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:18 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "comments": "What is the interest rate?",
@@ -172,14 +172,14 @@ Body: {
     "name": "Adil",
     "email": "radhika@gmail.com"
 }
-15:19:10 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:19 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/logout
 Method: GET
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Tj8/Pw==
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OhZJbH4/Bz8=
 Accept=*/*
 Content-Type=application/json
 Body: null
-15:19:12 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:20 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "LoggedOut": "True"
@@ -189,27 +189,27 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2024-06-01, 2025-12-31, 800002, 800003, 2, Anusha, fs@yahoo.com, Regd.Personal loan, When can I clear my personal loan?](2)" classname="testcases.UserJourney1" time="8.604">
-    <system-out><![CDATA[15:19:12 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="testUserJourney[jsmith, demo1234, 800002, 2024-06-01, 2025-12-31, 800002, 800003, 2, Anusha, fs@yahoo.com, Regd.Personal loan, When can I clear my personal loan?](2)" classname="testcases.UserJourney1" time="8.314">
+    <system-out><![CDATA[15:06:20 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:14 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:22 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8Laj8/Qw==",
     "success": "jsmith is now logged in"
 }
-15:19:14 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:22 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account/800002/transactions
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8Laj8/Qw==
 Accept=*/*
 Content-Type=application/json
 Body: {"startDate":"2024-06-01","endDate":"2025-12-31"}
-15:19:15 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:24 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "transactions": [
@@ -915,26 +915,26 @@ Body: {
         }
     ]
 }
-15:19:15 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:24 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8Laj8/Qw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800003","fromAccount":"800002","transferAmount":"2"}
-15:19:17 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:25 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "success": "2.0 was successfully transferred from Account 800002 into Account 800003 at 4/8/26 4:49 AM."
+    "success": "2.0 was successfully transferred from Account 800002 into Account 800003 at 5/18/26 4:36 AM."
 }
-15:19:17 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:25 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/feedback/submit
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8Laj8/Qw==
 Accept=*/*
 Content-Type=application/json
 Body: {"name":"Anusha","email":"fs@yahoo.com","subject":"Regd.Personal loan","message":"When can I clear my personal loan?"}
-15:19:19 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:27 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "comments": "When can I clear my personal loan?",
@@ -942,14 +942,14 @@ Body: {
     "name": "Anusha",
     "email": "fs@yahoo.com"
 }
-15:19:19 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:27 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/logout
 Method: GET
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LP0Y/P0w=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8Laj8/Qw==
 Accept=*/*
 Content-Type=application/json
 Body: null
-15:19:21 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:29 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "LoggedOut": "True"
@@ -959,27 +959,27 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAccountDeatilsSchema" classname="testcases.SchemaTest" time="4.503">
-    <system-out><![CDATA[15:19:21 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="testGetAccountDeatilsSchema" classname="testcases.SchemaTest" time="4.645">
+    <system-out><![CDATA[15:06:29 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:22 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:30 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OkhaTT8lPwg=",
     "success": "jsmith is now logged in"
 }
-15:19:22 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:30 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account
 Method: GET
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OkhaTT8lPwg=
 Accept=*/*
 Content-Type=application/json
 Body: null
-15:19:24 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:32 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "Accounts": [
@@ -999,15 +999,15 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetTransactionsSchema" classname="testcases.SchemaTest" time="2.041">
-    <system-out><![CDATA[15:19:27 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="testGetTransactionsSchema" classname="testcases.SchemaTest" time="1.939">
+    <system-out><![CDATA[15:06:35 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/account/800003/transactions
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ojc/QCM/P2o=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OkhaTT8lPwg=
 Accept=*/*
 Content-Type=application/json
 Body: {"startDate":"2025-01-12","endDate":"2025-10-17"}
-15:19:28 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:36 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "transactions": [
@@ -1715,27 +1715,27 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_FDB_01_ValidFeedback" classname="testcases.FeedbackTest" time="2.069">
-    <system-out><![CDATA[15:19:29 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_FDB_01_ValidFeedback" classname="testcases.FeedbackTest" time="1.71">
+    <system-out><![CDATA[15:06:37 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:30 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:38 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OkVqdz8/Pz8=",
     "success": "jsmith is now logged in"
 }
-15:19:30 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:38 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/feedback/submit
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OkVqdz8/Pz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
-15:19:32 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:40 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "comments": "Test Message",
@@ -1745,7 +1745,7 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_FDB_02_invalidFeedback" classname="testcases.FeedbackTest" time="1.804">
+  <testcase name="TC_FDB_02_invalidFeedback" classname="testcases.FeedbackTest" time="1.603">
     <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
@@ -1809,14 +1809,14 @@ Expected status code <400> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[15:19:33 [main] INFO  utils.RequestResponseLogger - REQUEST:
+    <system-out><![CDATA[15:06:40 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/feedback/submit
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9DAz9QPz8=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OkVqdz8/Pz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"name":"","email":"","subject":"","message":""}
-15:19:34 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:42 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "comments": "",
@@ -1826,7 +1826,7 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_FDB_03_FeedbackWithoutAuth" classname="testcases.FeedbackTest" time="1.658">
+  <testcase name="TC_FDB_03_FeedbackWithoutAuth" classname="testcases.FeedbackTest" time="1.434">
     <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.
@@ -1888,13 +1888,13 @@ Expected status code <401> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[15:19:34 [main] INFO  utils.RequestResponseLogger - REQUEST:
+    <system-out><![CDATA[15:06:42 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/feedback/submit
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"name":"John Smith","email":"john@test.com","subject":"Test Subject","message":"Test Message"}
-15:19:36 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:43 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "comments": "Test Message",
@@ -1904,75 +1904,75 @@ Body: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_01_validTransfer" classname="testcases.TransferTest" time="1.642">
-    <system-out><![CDATA[15:19:36 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_TRF_01_validTransfer" classname="testcases.TransferTest" time="1.835">
+    <system-out><![CDATA[15:06:43 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:38 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:45 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==",
     "success": "jsmith is now logged in"
 }
-15:19:38 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:45 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
-15:19:39 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:46 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "success": "200.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+    "success": "200.0 was successfully transferred from Account 800003 into Account 800002 at 5/18/26 4:36 AM."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_02_TransferFromInvalidAcc" classname="testcases.TransferTest" time="1.509">
-    <system-out><![CDATA[15:19:39 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_TRF_02_TransferFromInvalidAcc" classname="testcases.TransferTest" time="1.54">
+    <system-out><![CDATA[15:06:47 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800002","fromAccount":"000","transferAmount":"200"}
-15:19:41 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:48 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 500
 Body: "error":"ERROR: Originating account is invalid"}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_03_TransferToInvalidAcc" classname="testcases.TransferTest" time="1.528">
-    <system-out><![CDATA[15:19:41 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_TRF_03_TransferToInvalidAcc" classname="testcases.TransferTest" time="1.474">
+    <system-out><![CDATA[15:06:48 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"000","fromAccount":"800003","transferAmount":"200"}
-15:19:42 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:50 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 500
 Body: "error":"ERROR: Destination account is invalid"}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_04_zeroFundTranfer" classname="testcases.TransferTest" time="1.589">
-    <system-out><![CDATA[15:19:42 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_TRF_04_zeroFundTranfer" classname="testcases.TransferTest" time="1.545">
+    <system-out><![CDATA[15:06:50 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"0"}
-15:19:44 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:51 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "success": "0.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+    "success": "0.0 was successfully transferred from Account 800003 into Account 800002 at 5/18/26 4:36 AM."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_05_InvalidFundsTranfer" classname="testcases.TransferTest" time="1.497">
+  <testcase name="TC_TRF_05_InvalidFundsTranfer" classname="testcases.TransferTest" time="1.688">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
@@ -2034,61 +2034,61 @@ Expected status code <500> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[15:19:44 [main] INFO  utils.RequestResponseLogger - REQUEST:
+    <system-out><![CDATA[15:06:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/PwQ/
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pzs/Pw==
 Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"-100"}
-15:19:45 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:53 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "success": "-100.0 was successfully transferred from Account 800003 into Account 800002 at 4/8/26 4:49 AM."
+    "success": "-100.0 was successfully transferred from Account 800003 into Account 800002 at 5/18/26 4:36 AM."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_TRF_06_validTransfer" classname="testcases.TransferTest" time="1.87">
-    <system-out><![CDATA[15:19:45 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_TRF_06_validTransfer" classname="testcases.TransferTest" time="1.565">
+    <system-out><![CDATA[15:06:53 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/transfer
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"toAccount":"800002","fromAccount":"800003","transferAmount":"200"}
-15:19:47 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:54 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 401
 Body: loggedIn=false
 Please log in first
 ]]></system-out>
   </testcase>
-  <testcase name="TCAdmin_001_validRegistration" classname="testcases.AdminTest" time="1.638">
-    <system-out><![CDATA[15:19:47 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TCAdmin_001_validRegistration" classname="testcases.AdminTest" time="2.023">
+    <system-out><![CDATA[15:06:54 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:49 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:56 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OjduPyIIPz8=",
     "success": "jsmith is now logged in"
 }
-15:19:50 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:06:56 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/admin/addUser
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OjduPyIIPz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"firstname":"tinku","lastname":"minku","username":"tinkuminku","password1":"Abc@123","password2":"Abc@123"}
-15:19:51 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:06:58 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "success": "Requested operation has completed successfully."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TCAdmin_002_RegistrationWithExistingUsername" classname="testcases.AdminTest" time="1.476">
+  <testcase name="TCAdmin_002_RegistrationWithExistingUsername" classname="testcases.AdminTest" time="1.712">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
@@ -2150,160 +2150,160 @@ Expected status code <500> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[15:19:51 [main] INFO  utils.RequestResponseLogger - REQUEST:
+    <system-out><![CDATA[15:06:58 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/admin/addUser
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OjduPyIIPz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"firstname":"john","lastname":"smith","username":"jsmith","password1":"123","password2":"123"}
-15:19:53 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:00 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "success": "Requested operation has completed successfully."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TCAdmin_003_RegistrationPasswordMismatch" classname="testcases.AdminTest" time="1.554">
-    <system-out><![CDATA[15:19:53 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TCAdmin_003_RegistrationPasswordMismatch" classname="testcases.AdminTest" time="1.474">
+    <system-out><![CDATA[15:07:00 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/admin/addUser
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OjduPyIIPz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"firstname":"thanu","lastname":"manu","username":"thanumanu","password1":"123","password2":"456"}
-15:19:54 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:01 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"Entered passwords did not match."}
 ]]></system-out>
   </testcase>
-  <testcase name="TCAdmin_004_ExistingUserPasswordChange" classname="testcases.AdminTest" time="1.843">
-    <system-out><![CDATA[15:19:54 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TCAdmin_004_ExistingUserPasswordChange" classname="testcases.AdminTest" time="1.818">
+    <system-out><![CDATA[15:07:01 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/admin/changePassword
 Method: POST
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Olg/Pz8zHXs=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9OjduPyIIPz8=
 Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password1":"Abc@123","password2":"Abc@123"}
-15:19:56 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:03 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "success": "Requested operation has completed successfully."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_01_ValidLogin" classname="testcases.AuthTest" time="2.095">
-    <system-out><![CDATA[15:19:56 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_01_ValidLogin" classname="testcases.AuthTest" time="1.761">
+    <system-out><![CDATA[15:07:03 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:19:58 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:04 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9On5VPy0/P1E=",
     "success": "jsmith is now logged in"
 }
-15:19:58 [main] INFO  utils.RequestResponseLogger - REQUEST:
+15:07:05 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"demo1234"}
-15:20:00 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:06 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pz8/Nz8=",
     "success": "jsmith is now logged in"
 }
 {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9/IGADDT8=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Pz8/Nz8=",
     "success": "jsmith is now logged in"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_02_invalidPassword" classname="testcases.AuthTest" time="1.694">
-    <system-out><![CDATA[15:20:00 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_02_invalidPassword" classname="testcases.AuthTest" time="1.448">
+    <system-out><![CDATA[15:07:06 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":"wrongpass"}
-15:20:02 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:08 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"We're sorry, but this username or password was not found in our system."}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_03_invalidUsername" classname="testcases.AuthTest" time="1.58">
-    <system-out><![CDATA[15:20:02 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_03_invalidUsername" classname="testcases.AuthTest" time="1.624">
+    <system-out><![CDATA[15:07:08 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"xyz","password":"demo1234"}
-15:20:03 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:09 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"We're sorry, but this username or password was not found in our system."}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_04_blankUsername" classname="testcases.AuthTest" time="1.705">
-    <system-out><![CDATA[15:20:03 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_04_blankUsername" classname="testcases.AuthTest" time="1.52">
+    <system-out><![CDATA[15:07:10 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"","password":"demo1234"}
-15:20:05 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:11 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"We're sorry, but this username or password was not found in our system."}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_05_blankPassword" classname="testcases.AuthTest" time="1.509">
-    <system-out><![CDATA[15:20:05 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_05_blankPassword" classname="testcases.AuthTest" time="1.474">
+    <system-out><![CDATA[15:07:11 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"jsmith","password":""}
-15:20:06 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:13 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"We're sorry, but this username or password was not found in our system."}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_06_EmptyCredentials" classname="testcases.AuthTest" time="1.497">
-    <system-out><![CDATA[15:20:07 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_06_EmptyCredentials" classname="testcases.AuthTest" time="1.46">
+    <system-out><![CDATA[15:07:13 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: {"username":"","password":""}
-15:20:08 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:14 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"We're sorry, but this username or password was not found in our system."}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_07_noBody" classname="testcases.AuthTest" time="1.52">
-    <system-out><![CDATA[15:20:08 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_07_noBody" classname="testcases.AuthTest" time="1.452">
+    <system-out><![CDATA[15:07:14 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/login
 Method: POST
 Headers: Accept=*/*
 Content-Type=application/json
 Body: null
-15:20:09 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:15 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 400
 Body: {"error":"body is not JSON"}
 ]]></system-out>
   </testcase>
-  <testcase name="TC_AUTH_08_validLogout" classname="testcases.AuthTest" time="1.623">
-    <system-out><![CDATA[15:20:10 [main] INFO  utils.RequestResponseLogger - REQUEST:
+  <testcase name="TC_AUTH_08_validLogout" classname="testcases.AuthTest" time="1.571">
+    <system-out><![CDATA[15:07:16 [main] INFO  utils.RequestResponseLogger - REQUEST:
 URI: https://demo.testfire.net/api/logout
 Method: GET
-Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9Ohk/ND8/Gms=
+Headers: Authorization=YW5OdGFYUm86WkdWdGJ6RXlNelE9On5VPy0/P1E=
 Accept=*/*
 Content-Type=application/json
 Body: null
-15:20:11 [main] INFO  utils.RequestResponseLogger - RESPONSE:
+15:07:17 [main] INFO  utils.RequestResponseLogger - RESPONSE:
 Status Code: 200
 Body: {
     "LoggedOut": "True"

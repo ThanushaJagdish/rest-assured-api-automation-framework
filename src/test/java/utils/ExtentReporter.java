@@ -47,20 +47,22 @@ public class ExtentReporter implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        String suiteName = context.getSuite().getName();
-        ExtentTest suiteNode = getExtentInstance().createTest(suiteName);
-        testSuiteMap.put(context.getName(), suiteNode);
-
-        suiteNode.info("Suite started: " + suiteName);
-        suiteNode.assignCategory("Suite: " + suiteName);
+//        String suiteName = context.getSuite().getName();
+//        ExtentTest suiteNode = getExtentInstance().createTest(suiteName);
+//        testSuiteMap.put(context.getName(), suiteNode);
+//
+//        suiteNode.info("Suite started: " + suiteName);
+//        suiteNode.assignCategory("Suite: " + suiteName);
 
     }
 
     @Override
     public void onTestStart(ITestResult result) {
-        ExtentTest suiteNode = testSuiteMap.get(result.getTestContext().getName());
-        ExtentTest methodNode = suiteNode.createNode(result.getMethod().getMethodName());
+        ExtentTest methodNode =
+                getExtentInstance().createTest(result.getMethod().getMethodName());
+
         methodNode.assignCategory(result.getTestContext().getName());
+
         testNode.set(methodNode);
     }
 
@@ -90,10 +92,10 @@ public class ExtentReporter implements ITestListener {
     @Override
     public void onFinish(ITestContext context) {
         ExtentTest suiteNode = testSuiteMap.get(context.getName());
-        suiteNode.info("Suite finished: " + context.getSuite().getName());
-        suiteNode.info("Passed: " + context.getPassedTests().size());
-        suiteNode.info("Failed: " + context.getFailedTests().size());
-        suiteNode.info("Skipped: " + context.getSkippedTests().size());
+        //suiteNode.info("Suite finished: " + context.getSuite().getName());
+        //suiteNode.info("Passed: " + context.getPassedTests().size());
+        //suiteNode.info("Failed: " + context.getFailedTests().size());
+        //suiteNode.info("Skipped: " + context.getSkippedTests().size());
 
         getExtentInstance().flush();
         //openReport();

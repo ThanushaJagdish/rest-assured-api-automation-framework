@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="27" passed="23" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-08T15:18:40 IST" name="API Automation Suite" finished-at="2026-04-08T15:20:11 IST" duration-ms="90957">
+  <suite started-at="2026-05-18T15:05:48 IST" name="API Automation Suite" finished-at="2026-05-18T15:07:17 IST" duration-ms="88993">
     <groups>
     </groups>
-    <test started-at="2026-04-08T15:18:40 IST" name="Regression Tests" finished-at="2026-04-08T15:20:11 IST" duration-ms="90957">
+    <test started-at="2026-05-18T15:05:48 IST" name="Regression Tests" finished-at="2026-05-18T15:07:17 IST" duration-ms="88993">
       <class name="testcases.AuthTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:19:56 IST" name="setUp" finished-at="2026-04-08T15:19:58 IST" duration-ms="1884" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:03 IST" name="setUp" finished-at="2026-05-18T15:07:05 IST" duration-ms="1599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_AUTH_01_ValidLogin()[pri:1, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:19:58 IST" name="TC_AUTH_01_ValidLogin" finished-at="2026-04-08T15:20:00 IST" duration-ms="2086" status="PASS">
+        <test-method signature="TC_AUTH_01_ValidLogin()[pri:1, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:05 IST" name="TC_AUTH_01_ValidLogin" finished-at="2026-05-18T15:07:06 IST" duration-ms="1702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_01_ValidLogin -->
-        <test-method signature="TC_AUTH_02_invalidPassword()[pri:2, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:00 IST" name="TC_AUTH_02_invalidPassword" finished-at="2026-04-08T15:20:02 IST" duration-ms="1704" status="PASS">
+        <test-method signature="TC_AUTH_02_invalidPassword()[pri:2, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:06 IST" name="TC_AUTH_02_invalidPassword" finished-at="2026-05-18T15:07:08 IST" duration-ms="1511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_02_invalidPassword -->
-        <test-method signature="TC_AUTH_03_invalidUsername()[pri:3, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:02 IST" name="TC_AUTH_03_invalidUsername" finished-at="2026-04-08T15:20:03 IST" duration-ms="1571" status="PASS">
+        <test-method signature="TC_AUTH_03_invalidUsername()[pri:3, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:08 IST" name="TC_AUTH_03_invalidUsername" finished-at="2026-05-18T15:07:10 IST" duration-ms="1598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_03_invalidUsername -->
-        <test-method signature="TC_AUTH_04_blankUsername()[pri:4, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:03 IST" name="TC_AUTH_04_blankUsername" finished-at="2026-04-08T15:20:05 IST" duration-ms="1683" status="PASS">
+        <test-method signature="TC_AUTH_04_blankUsername()[pri:4, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:10 IST" name="TC_AUTH_04_blankUsername" finished-at="2026-05-18T15:07:11 IST" duration-ms="1544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_04_blankUsername -->
-        <test-method signature="TC_AUTH_05_blankPassword()[pri:5, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:05 IST" name="TC_AUTH_05_blankPassword" finished-at="2026-04-08T15:20:06 IST" duration-ms="1514" status="PASS">
+        <test-method signature="TC_AUTH_05_blankPassword()[pri:5, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:11 IST" name="TC_AUTH_05_blankPassword" finished-at="2026-05-18T15:07:13 IST" duration-ms="1463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_05_blankPassword -->
-        <test-method signature="TC_AUTH_06_EmptyCredentials()[pri:6, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:06 IST" name="TC_AUTH_06_EmptyCredentials" finished-at="2026-04-08T15:20:08 IST" duration-ms="1475" status="PASS">
+        <test-method signature="TC_AUTH_06_EmptyCredentials()[pri:6, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:13 IST" name="TC_AUTH_06_EmptyCredentials" finished-at="2026-05-18T15:07:14 IST" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_06_EmptyCredentials -->
-        <test-method signature="TC_AUTH_07_noBody()[pri:7, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:08 IST" name="TC_AUTH_07_noBody" finished-at="2026-04-08T15:20:10 IST" duration-ms="1530" status="PASS">
+        <test-method signature="TC_AUTH_07_noBody()[pri:7, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:14 IST" name="TC_AUTH_07_noBody" finished-at="2026-05-18T15:07:15 IST" duration-ms="1449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_07_noBody -->
-        <test-method signature="TC_AUTH_08_validLogout()[pri:8, instance:testcases.AuthTest@4d8126f]" started-at="2026-04-08T15:20:10 IST" name="TC_AUTH_08_validLogout" finished-at="2026-04-08T15:20:11 IST" duration-ms="1612" status="PASS">
+        <test-method signature="TC_AUTH_08_validLogout()[pri:8, instance:testcases.AuthTest@d176a31]" started-at="2026-05-18T15:07:15 IST" name="TC_AUTH_08_validLogout" finished-at="2026-05-18T15:07:17 IST" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AUTH_08_validLogout -->
       </class> <!-- testcases.AuthTest -->
       <class name="testcases.UserJourney1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UserJourney1@614aeccc]" started-at="2026-04-08T15:18:55 IST" name="setUp" finished-at="2026-04-08T15:18:57 IST" duration-ms="1630" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UserJourney1@5c92166b]" started-at="2026-05-18T15:06:04 IST" name="setUp" finished-at="2026-05-18T15:06:05 IST" duration-ms="1650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@614aeccc]" started-at="2026-04-08T15:19:03 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-04-08T15:19:12 IST" duration-ms="8557" status="PASS">
+        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@5c92166b]" started-at="2026-05-18T15:06:12 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-05-18T15:06:20 IST" duration-ms="8468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserJourney -->
-        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@614aeccc]" started-at="2026-04-08T15:19:12 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-04-08T15:19:21 IST" duration-ms="8589" status="PASS">
+        <test-method signature="testUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UserJourney1@5c92166b]" started-at="2026-05-18T15:06:20 IST" name="testUserJourney" data-provider="getExcelData" finished-at="2026-05-18T15:06:29 IST" duration-ms="8303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,45 +183,45 @@
         </test-method> <!-- testUserJourney -->
       </class> <!-- testcases.UserJourney1 -->
       <class name="testcases.AccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AccountTest@2787de58]" started-at="2026-04-08T15:18:38 IST" name="setup" finished-at="2026-04-08T15:18:40 IST" duration-ms="2675" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AccountTest@48c4245d]" started-at="2026-05-18T15:05:45 IST" name="setup" finished-at="2026-05-18T15:05:48 IST" duration-ms="2886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AccountTest@2787de58]" started-at="2026-04-08T15:18:41 IST" name="setUp" finished-at="2026-04-08T15:18:51 IST" duration-ms="9991" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AccountTest@48c4245d]" started-at="2026-05-18T15:05:48 IST" name="setUp" finished-at="2026-05-18T15:05:58 IST" duration-ms="9618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_ACC_08()[pri:0, instance:testcases.AccountTest@2787de58]" started-at="2026-04-08T15:18:51 IST" name="TC_ACC_08" finished-at="2026-04-08T15:18:54 IST" duration-ms="2280" status="PASS">
+        <test-method signature="TC_ACC_08()[pri:0, instance:testcases.AccountTest@48c4245d]" started-at="2026-05-18T15:05:58 IST" name="TC_ACC_08" finished-at="2026-05-18T15:06:02 IST" duration-ms="3782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ACC_08 -->
-        <test-method signature="TC_ACC_09()[pri:0, instance:testcases.AccountTest@2787de58]" started-at="2026-04-08T15:18:54 IST" name="TC_ACC_09" finished-at="2026-04-08T15:18:55 IST" duration-ms="1681" status="PASS">
+        <test-method signature="TC_ACC_09()[pri:0, instance:testcases.AccountTest@48c4245d]" started-at="2026-05-18T15:06:02 IST" name="TC_ACC_09" finished-at="2026-05-18T15:06:04 IST" duration-ms="1774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ACC_09 -->
       </class> <!-- testcases.AccountTest -->
       <class name="testcases.TransferTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:36 IST" name="setUp" finished-at="2026-04-08T15:19:38 IST" duration-ms="1685" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:43 IST" name="setUp" finished-at="2026-05-18T15:06:45 IST" duration-ms="1519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_TRF_01_validTransfer()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:38 IST" name="TC_TRF_01_validTransfer" finished-at="2026-04-08T15:19:39 IST" duration-ms="1634" status="PASS">
+        <test-method signature="TC_TRF_01_validTransfer()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:45 IST" name="TC_TRF_01_validTransfer" finished-at="2026-05-18T15:06:47 IST" duration-ms="1828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_01_validTransfer -->
-        <test-method signature="TC_TRF_02_TransferFromInvalidAcc()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:39 IST" name="TC_TRF_02_TransferFromInvalidAcc" finished-at="2026-04-08T15:19:41 IST" duration-ms="1490" status="PASS">
+        <test-method signature="TC_TRF_02_TransferFromInvalidAcc()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:47 IST" name="TC_TRF_02_TransferFromInvalidAcc" finished-at="2026-05-18T15:06:48 IST" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_02_TransferFromInvalidAcc -->
-        <test-method signature="TC_TRF_03_TransferToInvalidAcc()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:41 IST" name="TC_TRF_03_TransferToInvalidAcc" finished-at="2026-04-08T15:19:42 IST" duration-ms="1530" status="PASS">
+        <test-method signature="TC_TRF_03_TransferToInvalidAcc()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:48 IST" name="TC_TRF_03_TransferToInvalidAcc" finished-at="2026-05-18T15:06:50 IST" duration-ms="1472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_03_TransferToInvalidAcc -->
-        <test-method signature="TC_TRF_04_zeroFundTranfer()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:42 IST" name="TC_TRF_04_zeroFundTranfer" finished-at="2026-04-08T15:19:44 IST" duration-ms="1587" status="PASS">
+        <test-method signature="TC_TRF_04_zeroFundTranfer()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:50 IST" name="TC_TRF_04_zeroFundTranfer" finished-at="2026-05-18T15:06:51 IST" duration-ms="1540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_04_zeroFundTranfer -->
-        <test-method signature="TC_TRF_05_InvalidFundsTranfer()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:44 IST" name="TC_TRF_05_InvalidFundsTranfer" finished-at="2026-04-08T15:19:45 IST" duration-ms="1474" status="FAIL">
+        <test-method signature="TC_TRF_05_InvalidFundsTranfer()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:51 IST" name="TC_TRF_05_InvalidFundsTranfer" finished-at="2026-05-18T15:06:53 IST" duration-ms="1671" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -294,21 +294,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_05_InvalidFundsTranfer -->
-        <test-method signature="TC_TRF_06_validTransfer()[pri:0, instance:testcases.TransferTest@7f02251]" started-at="2026-04-08T15:19:45 IST" name="TC_TRF_06_validTransfer" finished-at="2026-04-08T15:19:47 IST" duration-ms="1848" status="PASS">
+        <test-method signature="TC_TRF_06_validTransfer()[pri:0, instance:testcases.TransferTest@7dd00705]" started-at="2026-05-18T15:06:53 IST" name="TC_TRF_06_validTransfer" finished-at="2026-05-18T15:06:54 IST" duration-ms="1546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_TRF_06_validTransfer -->
       </class> <!-- testcases.TransferTest -->
       <class name="testcases.FeedbackTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FeedbackTest@1bc425e7]" started-at="2026-04-08T15:19:29 IST" name="setUp" finished-at="2026-04-08T15:19:30 IST" duration-ms="1616" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FeedbackTest@4cd1c1dc]" started-at="2026-05-18T15:06:37 IST" name="setUp" finished-at="2026-05-18T15:06:38 IST" duration-ms="1561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_FDB_01_ValidFeedback()[pri:0, instance:testcases.FeedbackTest@1bc425e7]" started-at="2026-04-08T15:19:30 IST" name="TC_FDB_01_ValidFeedback" finished-at="2026-04-08T15:19:32 IST" duration-ms="2052" status="PASS">
+        <test-method signature="TC_FDB_01_ValidFeedback()[pri:0, instance:testcases.FeedbackTest@4cd1c1dc]" started-at="2026-05-18T15:06:38 IST" name="TC_FDB_01_ValidFeedback" finished-at="2026-05-18T15:06:40 IST" duration-ms="1702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FDB_01_ValidFeedback -->
-        <test-method signature="TC_FDB_02_invalidFeedback()[pri:0, instance:testcases.FeedbackTest@1bc425e7]" started-at="2026-04-08T15:19:32 IST" name="TC_FDB_02_invalidFeedback" finished-at="2026-04-08T15:19:34 IST" duration-ms="1763" status="FAIL">
+        <test-method signature="TC_FDB_02_invalidFeedback()[pri:0, instance:testcases.FeedbackTest@4cd1c1dc]" started-at="2026-05-18T15:06:40 IST" name="TC_FDB_02_invalidFeedback" finished-at="2026-05-18T15:06:42 IST" duration-ms="1573" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -383,7 +383,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_FDB_02_invalidFeedback -->
-        <test-method signature="TC_FDB_03_FeedbackWithoutAuth()[pri:0, instance:testcases.FeedbackTest@1bc425e7]" started-at="2026-04-08T15:19:34 IST" name="TC_FDB_03_FeedbackWithoutAuth" finished-at="2026-04-08T15:19:36 IST" duration-ms="1637" status="FAIL">
+        <test-method signature="TC_FDB_03_FeedbackWithoutAuth()[pri:0, instance:testcases.FeedbackTest@4cd1c1dc]" started-at="2026-05-18T15:06:42 IST" name="TC_FDB_03_FeedbackWithoutAuth" finished-at="2026-05-18T15:06:43 IST" duration-ms="1420" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -458,29 +458,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- TC_FDB_03_FeedbackWithoutAuth -->
       </class> <!-- testcases.FeedbackTest -->
       <class name="testcases.SchemaTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SchemaTest@5116ac09]" started-at="2026-04-08T15:19:21 IST" name="setUp" finished-at="2026-04-08T15:19:22 IST" duration-ms="1584" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SchemaTest@659925f4]" started-at="2026-05-18T15:06:29 IST" name="setUp" finished-at="2026-05-18T15:06:30 IST" duration-ms="1643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAccountDeatilsSchema()[pri:0, instance:testcases.SchemaTest@5116ac09]" started-at="2026-04-08T15:19:22 IST" name="testGetAccountDeatilsSchema" finished-at="2026-04-08T15:19:27 IST" duration-ms="4492" status="PASS">
+        <test-method signature="testGetAccountDeatilsSchema()[pri:0, instance:testcases.SchemaTest@659925f4]" started-at="2026-05-18T15:06:30 IST" name="testGetAccountDeatilsSchema" finished-at="2026-05-18T15:06:35 IST" duration-ms="4653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAccountDeatilsSchema -->
-        <test-method signature="testGetTransactionsSchema()[pri:0, instance:testcases.SchemaTest@5116ac09]" started-at="2026-04-08T15:19:27 IST" name="testGetTransactionsSchema" finished-at="2026-04-08T15:19:29 IST" duration-ms="2033" status="PASS">
+        <test-method signature="testGetTransactionsSchema()[pri:0, instance:testcases.SchemaTest@659925f4]" started-at="2026-05-18T15:06:35 IST" name="testGetTransactionsSchema" finished-at="2026-05-18T15:06:37 IST" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetTransactionsSchema -->
       </class> <!-- testcases.SchemaTest -->
       <class name="testcases.AdminTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AdminTest@dffa30b]" started-at="2026-04-08T15:19:47 IST" name="setUp" finished-at="2026-04-08T15:19:49 IST" duration-ms="2158" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AdminTest@f14e5bf]" started-at="2026-05-18T15:06:54 IST" name="setUp" finished-at="2026-05-18T15:06:56 IST" duration-ms="1573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TCAdmin_001_validRegistration()[pri:0, instance:testcases.AdminTest@dffa30b]" started-at="2026-04-08T15:19:49 IST" name="TCAdmin_001_validRegistration" finished-at="2026-04-08T15:19:51 IST" duration-ms="1632" status="PASS">
+        <test-method signature="TCAdmin_001_validRegistration()[pri:0, instance:testcases.AdminTest@f14e5bf]" started-at="2026-05-18T15:06:56 IST" name="TCAdmin_001_validRegistration" finished-at="2026-05-18T15:06:58 IST" duration-ms="2014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCAdmin_001_validRegistration -->
-        <test-method signature="TCAdmin_002_RegistrationWithExistingUsername()[pri:0, instance:testcases.AdminTest@dffa30b]" started-at="2026-04-08T15:19:51 IST" name="TCAdmin_002_RegistrationWithExistingUsername" finished-at="2026-04-08T15:19:53 IST" duration-ms="1457" status="FAIL">
+        <test-method signature="TCAdmin_002_RegistrationWithExistingUsername()[pri:0, instance:testcases.AdminTest@f14e5bf]" started-at="2026-05-18T15:06:58 IST" name="TCAdmin_002_RegistrationWithExistingUsername" finished-at="2026-05-18T15:07:00 IST" duration-ms="1702" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -553,11 +553,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCAdmin_002_RegistrationWithExistingUsername -->
-        <test-method signature="TCAdmin_003_RegistrationPasswordMismatch()[pri:0, instance:testcases.AdminTest@dffa30b]" started-at="2026-04-08T15:19:53 IST" name="TCAdmin_003_RegistrationPasswordMismatch" finished-at="2026-04-08T15:19:54 IST" duration-ms="1556" status="PASS">
+        <test-method signature="TCAdmin_003_RegistrationPasswordMismatch()[pri:0, instance:testcases.AdminTest@f14e5bf]" started-at="2026-05-18T15:07:00 IST" name="TCAdmin_003_RegistrationPasswordMismatch" finished-at="2026-05-18T15:07:01 IST" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCAdmin_003_RegistrationPasswordMismatch -->
-        <test-method signature="TCAdmin_004_ExistingUserPasswordChange()[pri:0, instance:testcases.AdminTest@dffa30b]" started-at="2026-04-08T15:19:54 IST" name="TCAdmin_004_ExistingUserPasswordChange" finished-at="2026-04-08T15:19:56 IST" duration-ms="1835" status="PASS">
+        <test-method signature="TCAdmin_004_ExistingUserPasswordChange()[pri:0, instance:testcases.AdminTest@f14e5bf]" started-at="2026-05-18T15:07:01 IST" name="TCAdmin_004_ExistingUserPasswordChange" finished-at="2026-05-18T15:07:03 IST" duration-ms="1716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCAdmin_004_ExistingUserPasswordChange -->

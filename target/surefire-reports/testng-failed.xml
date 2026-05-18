@@ -6,26 +6,26 @@
   </listeners>
   <test thread-count="5" name="Regression Tests(failed)" verbose="0">
     <classes>
-      <class name="testcases.TransferTest">
-        <methods>
-          <include name="setup"/>
-          <include name="setUp"/>
-          <include name="TC_TRF_05_InvalidFundsTranfer"/>
-        </methods>
-      </class> <!-- testcases.TransferTest -->
       <class name="testcases.FeedbackTest">
         <methods>
           <include name="TC_FDB_02_invalidFeedback"/>
-          <include name="setup"/>
           <include name="setUp"/>
+          <include name="setup"/>
           <include name="TC_FDB_03_FeedbackWithoutAuth"/>
         </methods>
       </class> <!-- testcases.FeedbackTest -->
+      <class name="testcases.TransferTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="TC_TRF_05_InvalidFundsTranfer"/>
+        </methods>
+      </class> <!-- testcases.TransferTest -->
       <class name="testcases.AdminTest">
         <methods>
           <include name="TCAdmin_002_RegistrationWithExistingUsername"/>
-          <include name="setup"/>
           <include name="setUp"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testcases.AdminTest -->
     </classes>

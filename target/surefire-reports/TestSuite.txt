@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 27, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 99.64 s <<< FAILURE! -- in TestSuite
-testcases.FeedbackTest.TC_FDB_02_invalidFeedback -- Time elapsed: 1.804 s <<< FAILURE!
+Tests run: 27, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 98.92 s <<< FAILURE! -- in TestSuite
+testcases.FeedbackTest.TC_FDB_02_invalidFeedback -- Time elapsed: 1.603 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
@@ -66,7 +66,7 @@ Expected status code <400> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testcases.FeedbackTest.TC_FDB_03_FeedbackWithoutAuth -- Time elapsed: 1.658 s <<< FAILURE!
+testcases.FeedbackTest.TC_FDB_03_FeedbackWithoutAuth -- Time elapsed: 1.434 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.
@@ -128,7 +128,7 @@ Expected status code <401> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testcases.TransferTest.TC_TRF_05_InvalidFundsTranfer -- Time elapsed: 1.497 s <<< FAILURE!
+testcases.TransferTest.TC_TRF_05_InvalidFundsTranfer -- Time elapsed: 1.688 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
@@ -190,7 +190,7 @@ Expected status code <500> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testcases.AdminTest.TCAdmin_002_RegistrationWithExistingUsername -- Time elapsed: 1.476 s <<< FAILURE!
+testcases.AdminTest.TCAdmin_002_RegistrationWithExistingUsername -- Time elapsed: 1.712 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
